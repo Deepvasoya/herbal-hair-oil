@@ -1,0 +1,30 @@
+.error {
+    color: #FF0000;
+    /* margin-top: 10px; */
+    /* display: block; */
+}
+
+/* ckeditor css */
+.cke_chrome{
+    border-radius: 10px;
+    border: 1px solid #eef3f7;
+    border-width: thin;
+}
+.cke_top{
+    border-radius: 10px 10px 0px 0px
+}
+.cke_bottom{
+    border-radius: 0px 0px 10px 10px
+}
+#loader {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.75) url("../theme/assets/loader.gif") no-repeat center center;
+    z-index: 10000;
+    background-size: 50px;
+  }
